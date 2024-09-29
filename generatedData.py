@@ -8,13 +8,10 @@ import csv
 import datetime 
 from datetime import timedelta
 import random
+
 Faker.seed(0)
 r.seed(0)
 fake = Faker(['en_US'])
-
-print(fake.first_name())
-print(fake.address())
-print(fake.last_name())
 
 #Creating Fake Schools
 schools = [
@@ -47,14 +44,12 @@ for i in range(3):
         schools.loc[i, 'student_enrollment'] = student_enrollment
         schools.loc[i, 'tuition'] = tuition 
 
-#display(schools[['school_address','teacher_population', 'student_enrollment', 'average_student_teacher_ratio']])
-
 # CSV for school SOURCE: https://www.geeksforgeeks.org/how-to-create-a-csv-file-using-python/
 csv_file_path = 'schools.csv'
 
-#schools.to_csv(csv_file_path, index=False)
+schools.to_csv(csv_file_path, index=False)
 
-#print(f"CSV file {csv_file_path} created successfully.")
+print(f"CSV file {csv_file_path} created successfully.")
 
 # Creating Fake Students
 Faker.seed(1)
@@ -64,15 +59,16 @@ students = [
     'preferred_name',
     'class', 
     "graduation_year",
-    'DOB'
-    # "class_Grade",
-    # 'age',
-    # 'Ethnicity',
-    # 'gender',
-    # 'sex',
+    'dob',
+    #"class_Grade",
+    #'age',
+    'ethnicity',
+    'gender',
+    'sex',
     # 'letter_grade',
-    # 'socio_economic_tier',
-    # "disciplinary_action_count"
+    'socio_economic_tier',
+    "disciplinary_action_count",
+    'GPA'
     ]
 students = pd.DataFrame(columns=students)
 
@@ -84,6 +80,7 @@ grad_year = DynamicProvider (
     provider_name = 'grad_year',
     elements=[2025,2026,2027,2028]
 )
+
 fake.add_provider(class_levels)
 fake.add_provider(grad_year)
 
@@ -104,15 +101,17 @@ def createBirthday():
     random_days = r.randint(1,num_of_days)
     random_date = beginningDate + datetime.timedelta(days=random_days)
     return random_date
+def the_sex(gender):
+    if (gender == 'Man'):
+        sex = 'M'
+    elif (gender == "Woman"):
+        sex = 'F'
+    else:
+        sex = r.choice(['M','F'])
+    return sex
 
 for i in range(14):
     for j in range(len(schools.columns)):
-        # state = fake.state()
-        # teacher_population = r.randint(30,100)
-        # average_student_teacher_ratio = 0
-        # student_enrollment = r.randint(500,1000)
-        # tuition =  r.randint(50000,100000)
-    
         first_name = fake.first_name()
         last_name = fake.last_name()
         end = r.randint(0,len(first_name))
@@ -120,32 +119,33 @@ for i in range(14):
         class_level = fake.class_levels()
         graduation_year = fake.grad_year()
         dob = createBirthday()
-    # class_Grade =
-    # age =
-    # Ethnicity =
-    # gender =
-    # sex =
-    # letter_grade =
-    # socio_economic_tier =
-    # disciplinary_action_count =
+        # class_Grade =
+        # age =
+        ethnicity = r.choice(['White','Black or African American','American Indian or Alaska Native','Asian','Native Hawaiian and otherPacific Islander','Multiracial','Other'])
+        gender = r.choice(['Man','Woman','Non-Binary'])
+        gpa = (r.randint(10,40)) / 10
+        
+        # letter_grade =
+        socio_economic_tier = r.choice(['U','M','W'])
+        disciplinary_action_count = r.randint(0,200)
 
         students.loc[i,'first_name'] = first_name
         students.loc[i, 'last_name'] = last_name
         students.loc[i, 'preferred_name'] = preferred_name
         students.loc[i, 'class'] = class_level
         assignClassLevel(class_level)
-        print(dob)
-        students.loc[i, 'DOB'] = dob
+        students.loc[i, 'dob'] = dob
+        students.loc[i, 'ethnicity'] = ethnicity
+        students.loc[i, 'gender'] = gender
+        students.loc[i, 'sex'] = the_sex(gender)
+        students.loc[i, 'socio_economic_tier'] = socio_economic_tier
+        students.loc[i, 'disciplinary_action_count'] = disciplinary_action_count
+        if (class_level == 'Freshman'):
+            students.loc[i, 'GPA'] = None
+        else:
+            students.loc[i, 'GPA'] = gpa
 
-        print(dob)
-
-           
-
-        # schools.loc[i, 'average_student_teacher_ratio'] = (student_enrollment / teacher_population) / 100
-        # schools.loc[i, 'student_enrollment'] = student_enrollment
-        # schools.loc[i, 'tuition'] = tuition
-print(students)
-
+display(students)
 # CSV for school SOURCE: https://www.geeksforgeeks.org/how-to-create-a-csv-file-using-python/
 csv_file_path = 'students.csv'
 
