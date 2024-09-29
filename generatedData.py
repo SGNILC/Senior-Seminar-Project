@@ -145,3 +145,10 @@ for i in range(14):
         # schools.loc[i, 'student_enrollment'] = student_enrollment
         # schools.loc[i, 'tuition'] = tuition
 print(students)
+
+# CSV for school SOURCE: https://www.geeksforgeeks.org/how-to-create-a-csv-file-using-python/
+csv_file_path = 'students.csv'
+
+students.to_csv(csv_file_path, index=False)
+
+print(f"CSV file {csv_file_path} created successfully.")
