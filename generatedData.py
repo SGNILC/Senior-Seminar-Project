@@ -5,7 +5,9 @@ from faker.providers import DynamicProvider
 import pandas as pd
 import random as r
 import csv
-import math
+import datetime 
+from datetime import timedelta
+import random
 Faker.seed(0)
 r.seed(0)
 fake = Faker(['en_US'])
@@ -96,10 +98,12 @@ def assignClassLevel(class_level):
         students.loc[i, 'graduation_year'] = 2028
 
 def createBirthday():
-    date = pd.date_range(start='1/1/2006', end='1/1/2010')
-    df = pd.DataFrame(date)
-    date = df.sample(n=1 , random_state=0)
-    return date
+    beginningDate = datetime.date(2006,1,1)
+    endDate = datetime.date(2010,12,31)
+    num_of_days = (endDate - beginningDate).days
+    random_days = r.randint(1,num_of_days)
+    random_date = beginningDate + datetime.timedelta(days=random_days)
+    return random_date
 
 for i in range(14):
     for j in range(len(schools.columns)):
@@ -131,7 +135,7 @@ for i in range(14):
         students.loc[i, 'class'] = class_level
         assignClassLevel(class_level)
         print(dob)
-        #students.loc[i, 'DOB'] = dob
+        students.loc[i, 'DOB'] = dob
 
         print(dob)
 
