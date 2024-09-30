@@ -1,11 +1,31 @@
-studentID,first_name,last_name,preferred_name,class,graduation_year,dob,ethnicity,gender,sex,socio_economic_tier,disciplinary_action_count,GPA
-0,Dennis,Boone,Den,Freshman,2028,2008-01-05,Native Hawaiian and otherPacific Islander,Man,M,U,72,
-1,David,Hodges,D,Senior,2025,2010-03-29,White,Non-Binary,M,M,136,3.5
-2,Kristina,Davis,Kris,Freshman,2028,2006-07-23,Multiracial,Man,M,W,84,
-3,Ryan,Farmer,Rya,Freshman,2028,2009-02-21,White,Woman,F,M,156,
-4,Joseph,Pham,Josep,Freshman,2028,2007-02-24,Native Hawaiian and otherPacific Islander,Woman,F,W,66,
-5,Anthony,Johnson,,Freshman,2028,2010-07-08,Native Hawaiian and otherPacific Islander,Man,M,W,102,
-6,Glenda,Costa,Glend,Freshman,2028,2010-08-18,Other,Non-Binary,F,U,156,
-7,Kathryn,Crosby,Kathr,Sophomore,2027,2007-05-16,Multiracial,Woman,F,U,48,3.2
-8,Jerry,Robinson,Jerr,Senior,2025,2007-04-01,Black or African American,Man,M,W,114,3.5
-9,Sara,Butler,,Freshman,2028,2006-06-15,American Indian or Alaska Native,Non-Binary,F,M,27,
+studentID,first_name,last_name,preferred_name,class,graduation_year,dob,ethnicity,gender,sex,letter_grade,socio_economic_tier,disciplinary_action_count,GPA
+0,Dennis,Boone,Den,Freshman,2028,2008-01-05,Native Hawaiian and otherPacific Islander,Man,M,,U,72,
+1,David,Hodges,D,Senior,2025,2010-03-29,White,Non-Binary,M,,M,136,3.5
+2,Kristina,Davis,Kris,Freshman,2028,2006-07-23,Multiracial,Man,M,,W,84,
+3,Ryan,Farmer,Rya,Freshman,2028,2009-02-21,White,Woman,F,,M,156,
+4,Joseph,Pham,Josep,Freshman,2028,2007-02-24,Native Hawaiian and otherPacific Islander,Woman,F,,W,66,
+5,Anthony,Johnson,,Freshman,2028,2010-07-08,Native Hawaiian and otherPacific Islander,Man,M,,W,102,
+6,Glenda,Costa,Glend,Freshman,2028,2010-08-18,Other,Non-Binary,F,,U,156,
+7,Kathryn,Crosby,Kathr,Sophomore,2027,2007-05-16,Multiracial,Woman,F,,U,48,3.2
+8,Jerry,Robinson,Jerr,Senior,2025,2007-04-01,Black or African American,Man,M,,W,114,3.5
+9,Sara,Butler,,Freshman,2028,2006-06-15,American Indian or Alaska Native,Non-Binary,F,,M,27,
+10,Crystal,Cummings,Crys,Junior,2026,2009-12-19,White,Non-Binary,F,,W,52,2.0
+11,Julia,Huang,Jul,Senior,2025,2006-07-08,Native Hawaiian and otherPacific Islander,Woman,F,,W,61,2.0
+12,Kevin,Matthews,Ke,Senior,2025,2007-01-13,Black or African American,Man,M,,W,168,1.1
+13,Brianna,Johnson,Bria,Sophomore,2027,2008-09-03,White,Man,M,,U,38,3.1
+14,Robert,Thompson,,Junior,2026,2010-09-23,White,Non-Binary,F,,W,174,3.9
+15,Scott,Romero,Scott,Sophomore,2027,2008-12-11,American Indian or Alaska Native,Non-Binary,F,,U,55,3.5
+16,Mitchell,Oconnor,Mitc,Senior,2025,2008-07-12,Asian,Non-Binary,M,,W,91,3.0
+17,Kyle,Charles,Ky,Senior,2025,2009-06-09,White,Woman,F,,W,85,2.8
+18,Gary,Perez,G,Freshman,2028,2007-05-14,White,Non-Binary,M,,U,180,
+19,Amber,Dalton,Am,Sophomore,2027,2010-06-17,Black or African American,Woman,F,,U,25,2.3
+20,Willie,Farley,Willie,Junior,2026,2006-10-28,Other,Non-Binary,M,,U,146,1.7
+21,Renee,Hopkins,,Freshman,2028,2006-09-13,Multiracial,Man,M,,W,30,
+22,Kristen,Hoover,Kriste,Sophomore,2027,2006-07-08,American Indian or Alaska Native,Man,M,,W,5,1.1
+23,Ronald,Brown,R,Junior,2026,2007-01-15,Multiracial,Man,M,,U,186,2.5
+24,Shelley,Gutierrez,,Junior,2026,2009-10-24,White,Non-Binary,F,,W,25,2.3
+25,Michael,Ryan,M,Junior,2026,2007-03-30,White,Non-Binary,M,,M,111,1.9
+26,Carol,Ballard,,Sophomore,2027,2008-10-29,Asian,Man,M,,U,179,2.9
+27,Michelle,Lindsey,Michel,Junior,2026,2007-02-14,American Indian or Alaska Native,Woman,F,,W,120,3.8
+28,Meagan,Nunez,Meagan,Freshman,2028,2009-03-13,Black or African American,Non-Binary,M,,U,196,
+29,Shawn,Webster,Shawn,Junior,2026,2006-11-22,Other,Man,M,,W,64,2.0

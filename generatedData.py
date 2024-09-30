@@ -7,8 +7,9 @@ import csv
 import datetime 
 from datetime import timedelta
 import random
+from generateGPAData import createGPATable
+from generateGPAData import assignLetterGrade
 from generateTeacherData import *
-
 Faker.seed(0)
 r.seed(0)
 fake = Faker(['en_US'])
@@ -63,11 +64,10 @@ students = [
     "graduation_year",
     'dob',
     #"class_Grade",
-    #'age',
     'ethnicity',
     'gender',
     'sex',  
-    # 'letter_grade',
+    'letter_grade',
     'socio_economic_tier',
     "disciplinary_action_count",
     'GPA'
@@ -112,7 +112,7 @@ def the_sex(gender):
         sex = r.choice(['M','F'])
     return sex
 
-for i in range(10):
+for i in range(30):
     first_name = fake.first_name()
     last_name = fake.last_name()
     end = r.randint(0,len(first_name))
@@ -171,4 +171,13 @@ print(teachers)
 # CSV for school SOURCE: https://www.geeksforgeeks.org/how-to-create-a-csv-file-using-python/
 csv_file_path = 'teachers.csv'
 teachers.to_csv(csv_file_path, index=False)
+print(f"CSV file {csv_file_path} created successfully.")
+
+#Create GPA Table
+gpaTable = createGPATable()
+students = pd.read_csv('students.csv')
+
+assignLetterGrade(students)
+csv_file_path = 'gpa.csv'
+gpaTable.to_csv(csv_file_path, index=False)
 print(f"CSV file {csv_file_path} created successfully.")

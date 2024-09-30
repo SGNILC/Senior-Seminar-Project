@@ -30,3 +30,4 @@ def pushData(row, schoolID, classID):
     teachers.loc[row,'schoolID'] =  schoolID
     teachers.loc[row,'classID'] =  r.randint(0,classID)
     teachers['teacherID'] = teachers.index
+
