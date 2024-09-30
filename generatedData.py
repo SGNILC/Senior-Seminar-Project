@@ -181,3 +181,8 @@ assignLetterGrade(students)
 csv_file_path = 'gpa.csv'
 gpaTable.to_csv(csv_file_path, index=False)
 print(f"CSV file {csv_file_path} created successfully.")
+
+csv_file_path = 'students.csv'
+students.to_csv(csv_file_path, index=False)
+print(f"CSV file {csv_file_path} created successfully.")
+
