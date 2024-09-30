@@ -1,15 +1,11 @@
-first_name,last_name,preferred_name,class,graduation_year,dob,ethnicity,gender,sex,socio_economic_tier,disciplinary_action_count,GPA
-Glenda,Costa,Glen,Freshman,2028,2009-09-07,American Indian or Alaska Native,Woman,F,U,173,
-Brianna,Johnson,Br,Sophomore,2027,2007-11-14,Asian,Man,M,U,178,1.3
-Willie,Farley,,Junior,2026,2008-10-29,Asian,Man,M,U,179,2.9
-Michelle,Lindsey,Miche,Junior,2026,2010-02-23,White,Non-Binary,F,U,61,1.8
-Larry,Cooper,Larr,Sophomore,2027,2010-12-19,Asian,Non-Binary,F,U,9,2.9
-Tammy,Hutchinson,,Junior,2026,2010-11-01,American Indian or Alaska Native,Man,M,W,166,3.0
-William,Smith,Wi,Senior,2025,2009-04-10,American Indian or Alaska Native,Woman,F,W,33,2.2
-Matthew,Carter,Mat,Senior,2025,2006-05-07,Asian,Man,M,M,142,1.3
-Alexander,Santiago,Al,Freshman,2028,2006-08-04,Native Hawaiian and otherPacific Islander,Woman,F,W,103,
-Kristin,Frost,Kris,Junior,2026,2006-02-02,Other,Woman,F,U,38,2.0
-Peter,Parker,P,Junior,2026,2007-05-06,American Indian or Alaska Native,Non-Binary,M,M,14,3.6
-Chris,Avery,Chris,Sophomore,2027,2008-08-15,Native Hawaiian and otherPacific Islander,Non-Binary,M,M,166,3.9
-Andrea,Weaver,,Senior,2025,2006-10-27,Asian,Non-Binary,F,U,26,2.3
-Sarah,Fowler,Sara,Sophomore,2027,2007-04-23,Other,Man,M,M,28,1.5
+studentID,first_name,last_name,preferred_name,class,graduation_year,dob,ethnicity,gender,sex,socio_economic_tier,disciplinary_action_count,GPA
+0,Dennis,Boone,Den,Freshman,2028,2008-01-05,Native Hawaiian and otherPacific Islander,Man,M,U,72,
+1,David,Hodges,D,Senior,2025,2010-03-29,White,Non-Binary,M,M,136,3.5
+2,Kristina,Davis,Kris,Freshman,2028,2006-07-23,Multiracial,Man,M,W,84,
+3,Ryan,Farmer,Rya,Freshman,2028,2009-02-21,White,Woman,F,M,156,
+4,Joseph,Pham,Josep,Freshman,2028,2007-02-24,Native Hawaiian and otherPacific Islander,Woman,F,W,66,
+5,Anthony,Johnson,,Freshman,2028,2010-07-08,Native Hawaiian and otherPacific Islander,Man,M,W,102,
+6,Glenda,Costa,Glend,Freshman,2028,2010-08-18,Other,Non-Binary,F,U,156,
+7,Kathryn,Crosby,Kathr,Sophomore,2027,2007-05-16,Multiracial,Woman,F,U,48,3.2
+8,Jerry,Robinson,Jerr,Senior,2025,2007-04-01,Black or African American,Man,M,W,114,3.5
+9,Sara,Butler,,Freshman,2028,2006-06-15,American Indian or Alaska Native,Non-Binary,F,M,27,

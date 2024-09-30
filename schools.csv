@@ -1,4 +1,4 @@
-school_name,school_address,state,teacher_population,average_student_teacher_ratio,student_enrollment,tuition
-Michigan High School,"41352 Simmons Circle Port Dustinbury, AZ 75718",South Dakota,42,0.19428571428571428,816,66417
-South Dakota High School,"466 Aaron Fields Ernestbury, SC 59238",Missouri,56,0.1775,994,86210
-Maryland High School,"6118 Wells Ville Suite 171 Simmonsport, MA 96806",Utah,71,0.12112676056338029,860,54127
+schoolID,school_name,school_address,state,teacher_population,average_student_teacher_ratio,student_enrollment,tuition
+0,Missouri High School,"48764 Howard Forge  421 Vanessaside, VT 79393",Georgia,79,0.11240506329113924,888,77562
+1,Maryland High School,"578 Michael Island New Thomas, VI 68835",Kentucky,35,0.18057142857142858,632,83506
+2,Arkansas High School,"60975 Jessica Squares East Sallybury, IA 19178",Ohio,92,0.07684782608695652,707,69877
