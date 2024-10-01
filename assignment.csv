@@ -1,0 +1,12 @@
+assignmentID,assignment_name,due_date,submission_status,late_status,score,grade
+0,Assignment1,9/30/2024,9/30/2024,0,95,
+1,Assignment2,10/1/2024,10/1/2024,1,87,
+2,Assignment3,10/2/2024,10/2/2024,0,98,
+3,Assignment4,10/9/2024,10/9/2024,0,90,
+4,Assignment5,10/11/2024,10/12/2024,1,88,
+5,Assignment6,10/15/2024,10/15/2024,0,96,
+6,Assignment7,10/18/2024,10/18/2024,0,90,
+7,Assignment8,10/21/2024,10/23/2024,1,78,
+8,Assignment9,10/22/2024,10/22/2024,0,98,
+9,Assignment10,10/30/2024,10/23/2024,0,90,
+10,Assignment11,11/4/2024,11/5/2024,1,90,

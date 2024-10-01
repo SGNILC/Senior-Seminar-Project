@@ -1,0 +1,6 @@
+gradeID,letter_grade,percentage_lower_bound,percentage_upper_bound
+0,A,90,100
+1,B,80,89
+2,C,70,79
+3,D,60,69
+4,F,0,59
