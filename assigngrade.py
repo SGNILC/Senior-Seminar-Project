@@ -24,3 +24,7 @@ gradesTable = pd.read_csv('assignment_grade .csv')
 assignment = pd.DataFrame(assignment)
 gradesTable = pd.DataFrame(gradesTable)
 print(assignmentLetterGrade(assignment,gradesTable))
+
+csv_file_path = 'assignment.csv'
+assignment.to_csv(csv_file_path, index=False)
+print(f"CSV file {csv_file_path} created successfully.")
