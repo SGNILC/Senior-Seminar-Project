@@ -164,7 +164,7 @@ for i in range(schoolCount):
     for _ in range(teacherCount):
         schoolID = schools.loc[i,'schoolID']
         print(endingID)
-        pushData(_ + endingID,schoolID,3)
+        pushData(_ + endingID,schoolID)
     endingID = teacherCount + endingID
 print(teachers)
 

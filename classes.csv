@@ -1,207 +1,207 @@
 classID,class_name,teacherID_FK,student_count,assignments,student_teacher_ratio
 0,Film,0,6,,1: 6
-1,Chemestry,1,8,,1: 8
+1,Chemestry,1,14,,1: 14
 2,Astronomy,2,12,,1: 12
-3,Art I,3,14,,1: 14
-4,Art II,4,10,,1: 10
-5,Senior Seminar,5,7,,1: 7
-6,Computer Science,6,7,,1: 7
-7,Computer Science,7,24,,1: 24
-8,Art I,8,7,,1: 7
-9,Computer Science,9,14,,1: 14
-10,Biology,10,5,,1: 5
-11,Biology,11,8,,1: 8
-12,Art II,12,14,,1: 14
-13,Biology,13,10,,1: 10
-14,Film,14,10,,1: 10
-15,Senior Seminar,15,8,,1: 8
+3,Art I,3,8,,1: 8
+4,Art II,4,3,,1: 3
+5,Senior Seminar,5,8,,1: 8
+6,Computer Science,6,12,,1: 12
+7,Computer Science,7,28,,1: 28
+8,Art I,8,9,,1: 9
+9,Computer Science,9,10,,1: 10
+10,Biology,10,10,,1: 10
+11,Biology,11,7,,1: 7
+12,Art II,12,11,,1: 11
+13,Biology,13,9,,1: 9
+14,Film,14,7,,1: 7
+15,Senior Seminar,15,9,,1: 9
 16,Astronomy,16,5,,1: 5
-17,Art I,17,20,,1: 20
-18,Chemestry,18,17,,1: 17
-19,Film,19,10,,1: 10
-20,Chemestry,20,7,,1: 7
-21,Astronomy,21,6,,1: 6
-22,Senior Seminar,22,9,,1: 9
-23,Art II,23,4,,1: 4
-24,Biology,24,24,,1: 24
-25,Senior Seminar,25,18,,1: 18
-26,Computer Science,26,8,,1: 8
-27,Astronomy,27,27,,1: 27
-28,Biology,28,6,,1: 6
-29,Astronomy,29,20,,1: 20
-30,Art I,30,8,,1: 8
-31,Art I,31,8,,1: 8
-32,Biology,32,9,,1: 9
+17,Art I,17,24,,1: 24
+18,Chemestry,18,12,,1: 12
+19,Film,19,7,,1: 7
+20,Chemestry,20,4,,1: 4
+21,Astronomy,21,14,,1: 14
+22,Senior Seminar,22,6,,1: 6
+23,Art II,23,5,,1: 5
+24,Biology,24,17,,1: 17
+25,Senior Seminar,25,25,,1: 25
+26,Computer Science,26,7,,1: 7
+27,Astronomy,27,29,,1: 29
+28,Biology,28,10,,1: 10
+29,Astronomy,29,21,,1: 21
+30,Art I,30,9,,1: 9
+31,Art I,31,10,,1: 10
+32,Biology,32,10,,1: 10
 33,Art II,33,5,,1: 5
-34,Senior Seminar,34,7,,1: 7
-35,Art I,35,10,,1: 10
-36,Biology,36,5,,1: 5
-37,Film,37,5,,1: 5
-38,Senior Seminar,38,8,,1: 8
-39,Computer Science,39,29,,1: 29
-40,Computer Science,40,19,,1: 19
+34,Senior Seminar,34,6,,1: 6
+35,Art I,35,11,,1: 11
+36,Biology,36,8,,1: 8
+37,Film,37,15,,1: 15
+38,Senior Seminar,38,6,,1: 6
+39,Computer Science,39,10,,1: 10
+40,Computer Science,40,29,,1: 29
 41,Art I,41,8,,1: 8
-42,Biology,42,25,,1: 25
-43,Computer Science,43,30,,1: 30
-44,Chemestry,44,10,,1: 10
-45,Film,45,8,,1: 8
-46,Art I,46,6,,1: 6
-47,Senior Seminar,47,30,,1: 30
-48,Film,48,4,,1: 4
-49,Art I,49,9,,1: 9
-50,Astronomy,50,4,,1: 4
-51,Art II,51,16,,1: 16
-52,Art II,52,9,,1: 9
-53,Biology,53,10,,1: 10
-54,Art II,54,29,,1: 29
-55,Senior Seminar,55,30,,1: 30
-56,Art I,56,30,,1: 30
-57,Senior Seminar,57,10,,1: 10
-58,Computer Science,58,8,,1: 8
-59,Film,59,28,,1: 28
-60,Biology,60,10,,1: 10
-61,Senior Seminar,61,14,,1: 14
-62,Biology,62,20,,1: 20
-63,Biology,63,7,,1: 7
-64,Senior Seminar,64,7,,1: 7
-65,Biology,65,6,,1: 6
-66,Biology,66,8,,1: 8
-67,Biology,67,28,,1: 28
-68,Chemestry,68,21,,1: 21
-69,Computer Science,69,9,,1: 9
+42,Biology,42,20,,1: 20
+43,Computer Science,43,15,,1: 15
+44,Chemestry,44,17,,1: 17
+45,Film,45,6,,1: 6
+46,Art I,46,10,,1: 10
+47,Senior Seminar,47,24,,1: 24
+48,Film,48,7,,1: 7
+49,Art I,49,14,,1: 14
+50,Astronomy,50,8,,1: 8
+51,Art II,51,11,,1: 11
+52,Art II,52,7,,1: 7
+53,Biology,53,14,,1: 14
+54,Art II,54,23,,1: 23
+55,Senior Seminar,55,11,,1: 11
+56,Art I,56,15,,1: 15
+57,Senior Seminar,57,12,,1: 12
+58,Computer Science,58,6,,1: 6
+59,Film,59,18,,1: 18
+60,Biology,60,15,,1: 15
+61,Senior Seminar,61,24,,1: 24
+62,Biology,62,26,,1: 26
+63,Biology,63,8,,1: 8
+64,Senior Seminar,64,9,,1: 9
+65,Biology,65,14,,1: 14
+66,Biology,66,5,,1: 5
+67,Biology,67,11,,1: 11
+68,Chemestry,68,25,,1: 25
+69,Computer Science,69,7,,1: 7
 70,Biology,70,10,,1: 10
 71,Senior Seminar,71,8,,1: 8
 72,Chemestry,72,4,,1: 4
-73,Chemestry,73,5,,1: 5
-74,Film,74,6,,1: 6
-75,Biology,75,10,,1: 10
-76,Biology,76,23,,1: 23
+73,Chemestry,73,8,,1: 8
+74,Film,74,5,,1: 5
+75,Biology,75,14,,1: 14
+76,Biology,76,30,,1: 30
 77,Biology,77,4,,1: 4
-78,Art I,78,12,,1: 12
-79,Film,79,20,,1: 20
-80,Chemestry,80,8,,1: 8
-81,Astronomy,81,25,,1: 25
-82,Biology,82,4,,1: 4
-83,Film,83,20,,1: 20
+78,Art I,78,7,,1: 7
+79,Film,79,10,,1: 10
+80,Chemestry,80,7,,1: 7
+81,Astronomy,81,23,,1: 23
+82,Biology,82,7,,1: 7
+83,Film,83,10,,1: 10
 84,Art I,84,8,,1: 8
-85,Astronomy,85,10,,1: 10
-86,Computer Science,86,4,,1: 4
-87,Senior Seminar,87,16,,1: 16
-88,Computer Science,88,11,,1: 11
-89,Art II,89,3,,1: 3
-90,Art I,90,22,,1: 22
-91,Astronomy,91,8,,1: 8
-92,Computer Science,92,28,,1: 28
-93,Astronomy,93,8,,1: 8
-94,Film,94,7,,1: 7
+85,Astronomy,85,3,,1: 3
+86,Computer Science,86,3,,1: 3
+87,Senior Seminar,87,26,,1: 26
+88,Computer Science,88,29,,1: 29
+89,Art II,89,4,,1: 4
+90,Art I,90,16,,1: 16
+91,Astronomy,91,4,,1: 4
+92,Computer Science,92,29,,1: 29
+93,Astronomy,93,10,,1: 10
+94,Film,94,5,,1: 5
 95,Art I,95,6,,1: 6
-96,Art II,96,12,,1: 12
-97,Art I,97,21,,1: 21
+96,Art II,96,9,,1: 9
+97,Art I,97,15,,1: 15
 98,Chemestry,98,6,,1: 6
-99,Biology,99,13,,1: 13
-100,Chemestry,100,5,,1: 5
-101,Art I,101,25,,1: 25
-102,Senior Seminar,102,9,,1: 9
-103,Art II,103,10,,1: 10
-104,Art I,104,5,,1: 5
-105,Art II,105,4,,1: 4
-106,Computer Science,106,8,,1: 8
-107,Art I,107,10,,1: 10
-108,Film,108,4,,1: 4
-109,Biology,109,14,,1: 14
-110,Senior Seminar,110,10,,1: 10
-111,Art II,111,26,,1: 26
-112,Senior Seminar,112,20,,1: 20
-113,Astronomy,113,12,,1: 12
-114,Film,114,27,,1: 27
-115,Film,115,3,,1: 3
-116,Film,116,7,,1: 7
-117,Chemestry,117,11,,1: 11
-118,Astronomy,118,18,,1: 18
-119,Art I,119,7,,1: 7
-120,Computer Science,120,12,,1: 12
-121,Astronomy,121,4,,1: 4
-122,Chemestry,122,12,,1: 12
-123,Astronomy,123,7,,1: 7
+99,Biology,99,12,,1: 12
+100,Chemestry,100,7,,1: 7
+101,Art I,101,30,,1: 30
+102,Senior Seminar,102,6,,1: 6
+103,Art II,103,3,,1: 3
+104,Art I,104,6,,1: 6
+105,Art II,105,8,,1: 8
+106,Computer Science,106,4,,1: 4
+107,Art I,107,9,,1: 9
+108,Film,108,5,,1: 5
+109,Biology,109,30,,1: 30
+110,Senior Seminar,110,9,,1: 9
+111,Art II,111,30,,1: 30
+112,Senior Seminar,112,30,,1: 30
+113,Astronomy,113,10,,1: 10
+114,Film,114,13,,1: 13
+115,Film,115,5,,1: 5
+116,Film,116,6,,1: 6
+117,Chemestry,117,10,,1: 10
+118,Astronomy,118,11,,1: 11
+119,Art I,119,4,,1: 4
+120,Computer Science,120,8,,1: 8
+121,Astronomy,121,6,,1: 6
+122,Chemestry,122,27,,1: 27
+123,Astronomy,123,10,,1: 10
 124,Art I,124,10,,1: 10
-125,Chemestry,125,12,,1: 12
-126,Senior Seminar,126,5,,1: 5
+125,Chemestry,125,14,,1: 14
+126,Senior Seminar,126,4,,1: 4
 127,Biology,127,10,,1: 10
-128,Computer Science,128,21,,1: 21
-129,Film,129,9,,1: 9
-130,Film,130,14,,1: 14
-131,Chemestry,131,26,,1: 26
-132,Chemestry,132,8,,1: 8
-133,Chemestry,133,6,,1: 6
-134,Biology,134,25,,1: 25
-135,Biology,135,10,,1: 10
-136,Senior Seminar,136,5,,1: 5
+128,Computer Science,128,30,,1: 30
+129,Film,129,8,,1: 8
+130,Film,130,15,,1: 15
+131,Chemestry,131,24,,1: 24
+132,Chemestry,132,10,,1: 10
+133,Chemestry,133,8,,1: 8
+134,Biology,134,21,,1: 21
+135,Biology,135,9,,1: 9
+136,Senior Seminar,136,8,,1: 8
 137,Art I,137,5,,1: 5
-138,Computer Science,138,26,,1: 26
-139,Astronomy,139,10,,1: 10
-140,Biology,140,25,,1: 25
-141,Art I,141,10,,1: 10
-142,Biology,142,11,,1: 11
-143,Computer Science,143,4,,1: 4
-144,Art II,144,30,,1: 30
-145,Computer Science,145,8,,1: 8
+138,Computer Science,138,22,,1: 22
+139,Astronomy,139,14,,1: 14
+140,Biology,140,19,,1: 19
+141,Art I,141,5,,1: 5
+142,Biology,142,7,,1: 7
+143,Computer Science,143,5,,1: 5
+144,Art II,144,18,,1: 18
+145,Computer Science,145,10,,1: 10
 146,Chemestry,146,20,,1: 20
-147,Chemestry,147,11,,1: 11
-148,Art I,148,8,,1: 8
-149,Art II,149,12,,1: 12
-150,Chemestry,150,5,,1: 5
-151,Astronomy,151,8,,1: 8
-152,Astronomy,152,10,,1: 10
-153,Film,153,11,,1: 11
-154,Computer Science,154,11,,1: 11
-155,Film,155,8,,1: 8
-156,Art I,156,10,,1: 10
-157,Computer Science,157,29,,1: 29
-158,Art I,158,15,,1: 15
-159,Art II,159,6,,1: 6
-160,Biology,160,8,,1: 8
-161,Chemestry,161,25,,1: 25
-162,Art I,162,11,,1: 11
-163,Computer Science,163,10,,1: 10
-164,Art I,164,15,,1: 15
-165,Film,165,10,,1: 10
-166,Computer Science,166,7,,1: 7
+147,Chemestry,147,21,,1: 21
+148,Art I,148,4,,1: 4
+149,Art II,149,10,,1: 10
+150,Chemestry,150,10,,1: 10
+151,Astronomy,151,4,,1: 4
+152,Astronomy,152,4,,1: 4
+153,Film,153,9,,1: 9
+154,Computer Science,154,15,,1: 15
+155,Film,155,5,,1: 5
+156,Art I,156,28,,1: 28
+157,Computer Science,157,19,,1: 19
+158,Art I,158,10,,1: 10
+159,Art II,159,11,,1: 11
+160,Biology,160,14,,1: 14
+161,Chemestry,161,14,,1: 14
+162,Art I,162,19,,1: 19
+163,Computer Science,163,4,,1: 4
+164,Art I,164,12,,1: 12
+165,Film,165,6,,1: 6
+166,Computer Science,166,6,,1: 6
 167,Biology,167,10,,1: 10
-168,Senior Seminar,168,26,,1: 26
-169,Art I,169,11,,1: 11
-170,Biology,170,12,,1: 12
-171,Film,171,8,,1: 8
-172,Art I,172,10,,1: 10
-173,Biology,173,11,,1: 11
-174,Astronomy,174,12,,1: 12
-175,Art II,175,5,,1: 5
-176,Biology,176,8,,1: 8
-177,Biology,177,10,,1: 10
-178,Astronomy,178,13,,1: 13
-179,Chemestry,179,6,,1: 6
+168,Senior Seminar,168,15,,1: 15
+169,Art I,169,26,,1: 26
+170,Biology,170,6,,1: 6
+171,Film,171,10,,1: 10
+172,Art I,172,11,,1: 11
+173,Biology,173,20,,1: 20
+174,Astronomy,174,10,,1: 10
+175,Art II,175,12,,1: 12
+176,Biology,176,6,,1: 6
+177,Biology,177,4,,1: 4
+178,Astronomy,178,14,,1: 14
+179,Chemestry,179,12,,1: 12
 180,Art II,180,8,,1: 8
-181,Computer Science,181,12,,1: 12
-182,Film,182,8,,1: 8
+181,Computer Science,181,20,,1: 20
+182,Film,182,7,,1: 7
 183,Biology,183,13,,1: 13
-184,Biology,184,14,,1: 14
-185,Senior Seminar,185,24,,1: 24
-186,Film,186,23,,1: 23
+184,Biology,184,25,,1: 25
+185,Senior Seminar,185,13,,1: 13
+186,Film,186,25,,1: 25
 187,Biology,187,12,,1: 12
-188,Art I,188,9,,1: 9
-189,Astronomy,189,7,,1: 7
-190,Senior Seminar,190,6,,1: 6
-191,Biology,191,5,,1: 5
-192,Senior Seminar,192,10,,1: 10
-193,Computer Science,193,5,,1: 5
-194,Senior Seminar,194,10,,1: 10
-195,Biology,195,29,,1: 29
-196,Chemestry,196,5,,1: 5
-197,Astronomy,197,5,,1: 5
-198,Senior Seminar,198,10,,1: 10
-199,Astronomy,199,10,,1: 10
-200,Art I,200,29,,1: 29
-201,Chemestry,201,14,,1: 14
-202,Computer Science,202,24,,1: 24
-203,Senior Seminar,203,12,,1: 12
-204,Film,204,9,,1: 9
-205,Computer Science,205,10,,1: 10
+188,Art I,188,6,,1: 6
+189,Astronomy,189,6,,1: 6
+190,Senior Seminar,190,10,,1: 10
+191,Biology,191,7,,1: 7
+192,Senior Seminar,192,8,,1: 8
+193,Computer Science,193,15,,1: 15
+194,Senior Seminar,194,14,,1: 14
+195,Biology,195,22,,1: 22
+196,Chemestry,196,10,,1: 10
+197,Astronomy,197,4,,1: 4
+198,Senior Seminar,198,12,,1: 12
+199,Astronomy,199,6,,1: 6
+200,Art I,200,16,,1: 16
+201,Chemestry,201,17,,1: 17
+202,Computer Science,202,11,,1: 11
+203,Senior Seminar,203,11,,1: 11
+204,Film,204,5,,1: 5
+205,Computer Science,205,13,,1: 13
