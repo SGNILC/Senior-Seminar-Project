@@ -1,85 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-:root{
-    --base-color: #F3F9FE; 
-    --accent-color: #56C361;
-    --text-color: rgb(30, 29, 29);
-    --text-color2: white;
-    --from-right: -80px;
-    --shift: -5%;
+:root {
+  --base-color: #f3f9fe;
+  --accent-color: #56c361;
+  --text-color: rgb(30, 29, 29);
+  --text-color2: white;
+  --from-right: -80px;
+  --shift: -5%;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: var(--base-color);
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--base-color);
 }
 
 h1 {
-    position: inherit;
-    text-align: center;
-    right: var(--shift);
+  position: inherit;
+  text-align: center;
+  right: var(--shift);
 }
 
 #frame {
-    position: absolute;
-    width: 100%;
-    height: 90vh;
-    align-content: right;
-    right: var(--shift);
-    border-radius: 5px 0px  0px 5px;
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  align-content: right;
+  right: var(--shift);
+  border-radius: 5px 0px 0px 5px;
 }
 
 #mySideNav a {
-    position: absolute;
-    left: var(--from-right);
-    transition: 0.3s;
-    padding: 10px;
-    width: 130px;
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--text-color2);
-    border-radius: 0 5px  5px 0;
+  position: absolute;
+  left: var(--from-right);
+  transition: 0.3s;
+  padding: 10px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--text-color1);
+  border-radius: 0 5px 5px 0;
+
+  border-color: solid black;
+  border-width: 5px, 5px;
 }
 
-#mySideNav a:hover{
-    left: 0;
+#mySideNav a:hover {
+  left: 0;
 }
 
 #allClasses {
-    top: 20%;
-    background-color: var(--accent-color);
-    align-items: center;
+  top: 20%;
+  background-color: var(--accent-color);
+  align-items: center;
+}
+
+#mySideNav #allClasses2 {
+  top: 20%;
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  align-items: center;
+  width: var(--from-right - 30);
 }
 
 #mySideNav #dashboard {
-    top: 30%;
-    background-color: var(--accent-color);
-    align-items: center;
-    width: var(--from-right - 30);
+  top: 30%;
+  background-color: var(--accent-color);
+  align-items: center;
+  width: var(--from-right - 30);
+}
+
+#mySideNav #dashboard2 {
+  top: 30%;
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+
+  border-color: black;
+  align-items: center;
+  width: var(--from-right - 30);
 }
 
 #mySideNav #dashboard a {
-    text-align: left;
+  text-align: left;
 }
 
 #settings {
-    top: 40%;
-    background-color: var(--accent-color);
-    align-items: center;
+  top: 40%;
+  background-color: var(--accent-color);
+  align-items: center;
+}
+
+#mySideNav #settings2 {
+  top: 40%;
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  align-items: center;
+  width: var(--from-right - 30);
 }
 
 #signOut {
-    top: 50%;
-    background-color: var(--accent-color);
-    align-items: center;
+  top: 50%;
+  background-color: var(--accent-color);
+  align-items: center;
 }
 
 /* SIGN OUT PAGE */
 #sign {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 50%;
-    margin-left: 250px;
-    color: var(--text-color);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  margin-left: 250px;
+  color: var(--text-color);
 }
