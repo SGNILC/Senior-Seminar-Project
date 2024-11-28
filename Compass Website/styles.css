@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --base-color: #f3f9fe;
-  --accent-color: #56c361;
+  --base-color: #edf2f4;
+  --accent-color: #0073e6;
   --text-color: rgb(30, 29, 29);
   --text-color2: white;
   --from-right: -80px;
@@ -17,7 +17,6 @@ body {
 h1 {
   position: inherit;
   text-align: center;
-  right: var(--shift);
 }
 
 #frame {
