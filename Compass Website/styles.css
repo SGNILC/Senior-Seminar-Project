@@ -2,11 +2,11 @@
 
 :root {
   --base-color: #edf2f4;
-  --accent-color: #0073e6;
+  --accent-color: #56C361;
   --text-color: rgb(30, 29, 29);
   --text-color2: white;
-  --from-right: -80px;
-  --shift: -5%;
+  --from-right: -98px;
+  --shift: -0%;
 }
 
 body {
@@ -19,9 +19,13 @@ h1 {
   text-align: center;
 }
 
+img {
+  position:relative;
+}
+
 #frame {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 90vh;
   align-content: right;
   right: var(--shift);
@@ -33,52 +37,65 @@ h1 {
   left: var(--from-right);
   transition: 0.3s;
   padding: 10px;
-  width: 130px;
+  width: 138px;
   text-decoration: none;
   font-size: 20px;
   color: var(--text-color1);
   border-radius: 0 5px 5px 0;
-
   border-color: solid black;
   border-width: 5px, 5px;
 }
 
 #mySideNav a:hover {
-  left: 0;
+  left: 0;  
 }
 
-#allClasses {
+#mySideNav #allClasses {
   top: 20%;
   background-color: var(--accent-color);
   align-items: center;
+  width: 156px;
+  left: -115px;
 }
 
 #mySideNav #allClasses2 {
   top: 20%;
   background-color: white;
-  border: solid;
+  /* border: solid;
   border-width: 2px;
   border-color: black;
   align-items: center;
-  width: var(--from-right - 30);
+  width: var(--from-right - 30); */
+
+  border-color: black;
+  align-items: center;
+  left: 0;
+  width: 156px;
 }
 
 #mySideNav #dashboard {
+  position: absolute;
   top: 30%;
   background-color: var(--accent-color);
   align-items: center;
-  width: var(--from-right - 30);
+  width: 165px;
+  left: -125px;
+
 }
 
 #mySideNav #dashboard2 {
   top: 30%;
   background-color: white;
-  border: solid;
-  border-width: 2px;
-
   border-color: black;
   align-items: center;
-  width: var(--from-right - 30);
+  left: 0;
+  width: 12rem;
+
+  /* border: solid; */
+  /* border-width: 2px; */
+  /* width: var(--from-right - 30); */
+
+
 }
 
 #mySideNav #dashboard a {
@@ -94,11 +111,17 @@ h1 {
 #mySideNav #settings2 {
   top: 40%;
   background-color: white;
-  border: solid;
-  border-width: 2px;
+  /* border: solid; */
+  /* border-width: 2px;
+  border-color: black; */
+  /* align-items: center; */
+  /* width: var(--from-right - 30); */
+
+
   border-color: black;
   align-items: center;
-  width: var(--from-right - 30);
+  left: 0;
+  width: 12rem;
 }
 
 #signOut {
